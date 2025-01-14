@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no minimal-ui">
+    <title>Prosta Strona</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <script>window.onbeforeunload = function () {
+        window.scrollTo(0,0);
+    };</script>
+    <header>
+        <h1>AP    Photgraphy</h1>
+    </header>
+
+    <section id="about">
+        <div>
+            Cześć, jestem Aleksy, od 100 lat robię zdjęcia, Pozdrawiam Wariaty</div>
+    </section>
+
+    <section id="najnowsze">
+        <div class="blurbox">
+            <h2>Najnowsze zdjęcia</h2>
+        </div>
+        <div class="photosContainer">
+            <img class="photo" src="p1.jpg"/>
+            <img class="photo" src="p2.jpg"/>
+            <img class="photo" src="p3.jpg"/>
+            <img class="photo" src="p4.png"/>
+            <img class="photo" src="p5.png"/>
+            <img class="photo" src="p7.jpg"/>
+            <img class="photo" src="p6.jpg"/>
+        </div>
+        <div class="popup_hidden">
+            <img class="photo_shown" src=""/>
+            <div class="xbutton"><p>X</p></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Aleksy Politański</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
